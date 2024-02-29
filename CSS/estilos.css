@@ -1,0 +1,96 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: rgb(95, 161, 131);
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+li{
+  font-family: Arial;
+}
+nav ul a {
+    text-decoration: none;
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    height: 200px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 440px;
+  margin-right: 30px;
+  text-align: justify;
+}
+
+h1{
+  margin-left: 440px;
+  margin-right: 30px;
+  text-align: left;
+  font-size: 200%;
+}
+h3{
+  font-family: Arial;
+  font-size: 150%;
+}
+
+
+.banderaMex{
+  background-image: url("../Imagenes/mexico.jpg");
+  background-size: 400px 250px;
+}
+.banderaFra{
+  background-image: url("../Imagenes/francia.jpg");
+  background-size: 400px 250px;
+}
+.banderaJap{
+  background-image: url("../Imagenes/japon.jpg");
+  background-size: 400px 250px;
+}
+.banderaRU{
+  background-image: url("../Imagenes/reinounido.jpg");
+  background-size: 400px 250px;
+}
+.banderaUsa{
+  background-image: url("../Imagenes/estadosunidos.jpg");
+  background-size: 400px 250px;
+}
+.banderaGre{
+  background-image: url("../Imagenes/grecia.jpg");
+  background-size: 400px 250px;
+}
+.banderaMar{
+  background-image: url("../Imagenes/marruecos.jpg");
+  background-size: 400px 250px;
+}
+.banderaEsp{
+  background-image: url("../Imagenes/españa.jpg");
+  background-size: 400px 250px;
+}
